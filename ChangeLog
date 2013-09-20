@@ -1,2 +1,7 @@
+2013-08-29	guoqing kong <haoyun-kgq@163.com>
+			* 发布 ngx.lua.http-server-info-v2.0
+			* 显示模式、日期选择等改进和优化
+			* 增加异步读数据功能，随意按天添加数据，方便数据对比分析
+
 2013-08-26	guoqing kong <haoyun-kgq@163.com>
 			* 发布 ngx.lua.http-server-info-v1.0

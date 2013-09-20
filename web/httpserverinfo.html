@@ -2,28 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Web服务器信息统计</title>
-  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <link rel="stylesheet" type="text/css" href="/httpserverinfo.css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
   <script type="text/javascript" src="/httpserverinfo.js"></script>
 </head>
 <body>
-<h1>Web服务器信息统计</h1>
-<div class="float">
-	<div>Step1:选择时间</div>
-	<div id="datepicker"></div>
-</div>
-<div class="float">
-	<div>Step2:提交查询</div>
-	<div>
-		<textarea id="formdate" name="formdate" style="height:226px;"></textarea>
-		<input type="button" value="查看" onclick="lookup()" />
-		<input type="button" value="清空" onclick="setempty()" />
-		<span class="red">注意：输入all可以查询30天的数据</span>
-	</div>
-</div>
-<hr />
+<!-- year-month-tag -->
+<div><ul id="selectmonth"></ul></div>
+<!-- day-tag -->
+<div class="daybody"><ul id="selectday"></ul></div>
+<!-- result -->
 <div id="resultset"></div>
 </body>
 </html>

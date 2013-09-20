@@ -1,6 +1,31 @@
-﻿h1 { text-align:center; }
-div.step div {
+﻿div { clear:both; }
+div ul {
+	margin:0px;
+	padding:0px;
+}
+div ul li {
 	float:left;
+	height:20px;
+	margin:2px 2px 0px 2px;
+	padding:2px 8px;
+	font-family: 宋体, 'Arial Narrow', HELVETICA;
+	text-align:center;
+	cursor:pointer;
+	list-style-type:none;
+	color:#000000;
+	background-color:#E4E4E4;
+}
+div.daybody ul li {
+	width:16px;
+}
+.selected {
+	color:#ffffff;
+	background-color:#EA5B80;
+}
+div.daybody {
+	height:82px;
+	padding:14px 24px;
+	border:2px solid #309DD8;
 }
 table.statuscode {
 	width:200px;
@@ -8,7 +33,7 @@ table.statuscode {
 	font-weight:bold;
 	font-size:12px;
 	text-align:center;
-	margin:4px;
+	margin:8px;
 	float:left;
 	border-collapse:collapse;
 	border:1px solid #8BB03A;
@@ -17,13 +42,10 @@ table.statuscode th,td {
 	padding:4px;
 }
 table.statuscode th {
-	background-color:#8BB03A;
+	background-color:#B472DB;
 	border:1px solid #444;
 }
 table.statuscode td {
 	color:#999;
 	border:1px solid #444;
 }
-br,hr { clear:both; }
-.float { float:left;margin-left:5px; }
-.red {color:#f00;font-weight:bold;}

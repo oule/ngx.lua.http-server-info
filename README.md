@@ -6,7 +6,7 @@ ngx.lua.http-server-info 是一个通过lua语言实现的基于共享词典的�
 Version
 =======
 
-2013-08-26 发布 ngx.lua.http-server-info version 1.0 (v1.0)。
+2013-08-29 发布 ngx.lua.http-server-info version 2.0 (v2.0)。
 
 Description
 ===========
