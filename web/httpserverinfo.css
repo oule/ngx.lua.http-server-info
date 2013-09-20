@@ -1,0 +1,29 @@
+﻿h1 { text-align:center; }
+div.step div {
+	float:left;
+}
+table.statuscode {
+	width:200px;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	margin:4px;
+	float:left;
+	border-collapse:collapse;
+	border:1px solid #8BB03A;
+}
+table.statuscode th,td {
+	padding:4px;
+}
+table.statuscode th {
+	background-color:#8BB03A;
+	border:1px solid #444;
+}
+table.statuscode td {
+	color:#999;
+	border:1px solid #444;
+}
+br,hr { clear:both; }
+.float { float:left;margin-left:5px; }
+.red {color:#f00;font-weight:bold;}
